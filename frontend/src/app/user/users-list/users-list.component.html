@@ -1,0 +1,7 @@
+<div class="container" *ngFor="let user of users$ | async">
+    <mat-card class="card">
+        <mat-card-title>{{ user.username }}</mat-card-title>
+        <mat-card-subtitle>{{ user.name }}</mat-card-subtitle>
+    </mat-card>
+</div>
+
